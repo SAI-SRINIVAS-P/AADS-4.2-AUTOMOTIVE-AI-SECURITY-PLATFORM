@@ -1,1 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310"><defs><linearGradient id="bg"><stop stop-color="#07111e"/><stop offset="1" stop-color="#102741"/></linearGradient><linearGradient id="n"><stop stop-color="#4be7e5"/><stop offset="1" stop-color="#ffc36e"/></linearGradient></defs><rect width="1200" height="310" rx="26" fill="url(#bg)"/><g stroke="#4b789c" stroke-opacity=".18"><path d="M0 0V310"/><path d="M120 0V310"/><path d="M240 0V310"/><path d="M360 0V310"/><path d="M480 0V310"/><path d="M600 0V310"/><path d="M720 0V310"/><path d="M840 0V310"/><path d="M960 0V310"/><path d="M1080 0V310"/></g><text x="54" y="54" font-family="monospace" font-size="14" letter-spacing="4" fill="#4be7e5">VEHICLE TELEMETRY // ML LIFECYCLE</text><text x="50" y="125" font-family="Arial" font-size="52" font-weight="800" fill="#f2f8ff">AADS <tspan fill="#4be7e5">4.2</tspan></text><text x="54" y="164" font-family="Arial" font-size="23" font-weight="600" fill="#b8cfe4">AUTOMOTIVE AI SECURITY PLATFORM</text><text x="54" y="200" font-family="monospace" font-size="14" fill="#93abc1">CAN BUS • TEMPORAL ML • EXPLAINABLE ALERTS • MLOPS</text><path d="M660 200H715L732 158L751 234L779 128L803 202L821 178H850L872 158L893 198H936L955 178L974 200H1140" fill="none" stroke="url(#n)" stroke-width="3.5"><animate attributeName="stroke-dasharray" values="0 800;400 400;800 0" dur="4s" repeatCount="indefinite"/></path><circle cx="779" cy="128" r="7" fill="#ffc36e"><animate attributeName="r" values="5;9;5" dur="1.8s" repeatCount="indefinite"/></circle><text x="54" y="275" font-family="monospace" font-size="12" letter-spacing="2" fill="#6487a5">OBSERVE → ENGINEER → LEARN → EXPLAIN → MONITOR</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+<title id="title">AADS 4.2 · Automotive AI Security Platform</title>
+<desc id="desc">An abstract animated aurora banner with prismatic gradients, orbital rings, telemetry waves, and the AADS 4.2 title.</desc>
+<defs>
+  <linearGradient id="space" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08091c"/><stop offset=".52" stop-color="#151037"/><stop offset="1" stop-color="#071c2c"/></linearGradient>
+  <linearGradient id="prism" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#ff5db1"><animate attributeName="stop-color" values="#ff5db1;#a78bfa;#39e7ff;#b6ff75;#ff5db1" dur="10s" repeatCount="indefinite"/></stop><stop offset=".52" stop-color="#7c5cff"><animate attributeName="stop-color" values="#7c5cff;#39e7ff;#b6ff75;#ff9e6d;#7c5cff" dur="10s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#39e7ff"><animate attributeName="stop-color" values="#39e7ff;#b6ff75;#ff5db1;#7c5cff;#39e7ff" dur="10s" repeatCount="indefinite"/></stop></linearGradient>
+  <radialGradient id="haze"><stop stop-color="#a855f7" stop-opacity=".34"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#9aa8ff" stroke-opacity=".09" stroke-width="1"/></pattern>
+</defs>
+<rect width="1200" height="340" rx="28" fill="url(#space)"/>
+<rect width="1200" height="340" rx="28" fill="url(#grid)"/>
+<ellipse cx="910" cy="90" rx="290" ry="210" fill="url(#haze)"/>
+<g fill="none" stroke="url(#prism)" opacity=".75" filter="url(#glow)">
+  <path d="M-30 250 C160 90 220 340 420 180 S730 55 900 170 S1080 300 1240 95" stroke-width="3">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M-30 250 C160 90 220 340 420 180 S730 55 900 170 S1080 300 1240 95;M-30 180 C150 330 260 65 440 200 S720 300 900 120 S1080 80 1240 210;M-30 250 C160 90 220 340 420 180 S730 55 900 170 S1080 300 1240 95"/>
+  </path>
+  <ellipse cx="1000" cy="165" rx="135" ry="95" stroke-width="2" opacity=".65"><animateTransform attributeName="transform" type="rotate" from="0 1000 165" to="360 1000 165" dur="32s" repeatCount="indefinite"/></ellipse>
+  <ellipse cx="1000" cy="165" rx="170" ry="58" stroke-width="1.5" opacity=".5"><animateTransform attributeName="transform" type="rotate" from="360 1000 165" to="0 1000 165" dur="26s" repeatCount="indefinite"/></ellipse>
+</g>
+<g fill="url(#prism)" opacity=".85">
+  <circle cx="92" cy="75" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="360" cy="65" r="2.5"><animate attributeName="opacity" values="1;.25;1" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="760" cy="55" r="3"><animate attributeName="opacity" values=".2;1;.2" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="1120" cy="265" r="3"><animate attributeName="opacity" values="1;.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+</g>
+<g font-family="monospace" font-size="12" letter-spacing="3" fill="#b5b8ff">
+  <text x="58" y="52">SIGNAL INTELLIGENCE <tspan fill="#44eaff">/</tspan> AUTONOMOUS ANALYTICS</text>
+  <text x="60" y="300" fill="#8c91b8" font-size="11" letter-spacing="2">INGEST <tspan fill="#ff6fcb">→</tspan> ENGINEER <tspan fill="#9f8cff">→</tspan> DETECT <tspan fill="#45e7ff">→</tspan> EXPLAIN <tspan fill="#b7ff79">→</tspan> MONITOR</text>
+</g>
+<text x="54" y="161" font-family="Arial,Helvetica,sans-serif" font-size="78" font-weight="900" letter-spacing="-2" fill="#f8f7ff">AADS <tspan fill="url(#prism)" filter="url(#glow)">4.2</tspan></text>
+<text x="60" y="204" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="700" letter-spacing="3" fill="#e6e6ff">AUTOMOTIVE AI SECURITY PLATFORM</text>
+<rect x="60" y="226" width="370" height="3" rx="2" fill="url(#prism)"><animate attributeName="width" values="130;370;220;370" dur="5s" repeatCount="indefinite"/></rect>
+<g transform="translate(1000 165)" filter="url(#glow)">
+  <path d="M0 -62 L50 -42 L46 7 Q35 42 0 62 Q-35 42 -46 7 L-50 -42 Z" fill="#12162e" fill-opacity=".82" stroke="url(#prism)" stroke-width="3"/>
+  <path d="M-17 1 L-4 15 L22 -15" fill="none" stroke="#f8f7ff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <animate attributeName="stroke-dasharray" values="0 90;90 0;90 0" dur="4s" repeatCount="indefinite"/>
+  </path>
+</g>
+</svg>
