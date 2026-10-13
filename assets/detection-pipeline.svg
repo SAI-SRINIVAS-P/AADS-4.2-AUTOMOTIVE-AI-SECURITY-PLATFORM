@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="520" viewBox="0 0 1100 520">
+<defs><linearGradient id="pbg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#08111f"/><stop offset="1" stop-color="#101d33"/></linearGradient></defs>
+<rect width="1100" height="520" rx="26" fill="url(#pbg)"/>
+<text x="55" y="60" fill="#eef6ff" font-size="25" font-family="Arial" font-weight="700">Repository workflow</text>
+<text x="55" y="88" fill="#9db0c9" font-size="14" font-family="Arial">What the current code actually does, end to end</text>
+<g font-family="Arial" font-size="14">
+<rect x="55" y="135" width="200" height="100" rx="16" fill="#0e1c2f" stroke="#2c4866"/><text x="75" y="165" fill="#42e8ff" font-weight="700">1. LOAD DATA</text><text x="75" y="190" fill="#9db0c9">CSV / GZ input</text><text x="75" y="212" fill="#9db0c9">pandas.read_csv()</text>
+<rect x="320" y="135" width="200" height="100" rx="16" fill="#0e1c2f" stroke="#2c4866"/><text x="340" y="165" fill="#5b8cff" font-weight="700">2. PREPARE</text><text x="340" y="190" fill="#9db0c9">fillna(0)</text><text x="340" y="212" fill="#9db0c9">LabelEncode(ID)</text>
+<rect x="585" y="135" width="200" height="100" rx="16" fill="#0e1c2f" stroke="#2c4866"/><text x="605" y="165" fill="#ffc857" font-weight="700">3. TRAIN / TEST</text><text x="605" y="190" fill="#9db0c9">80 / 20 split</text><text x="605" y="212" fill="#9db0c9">random_state = 0</text>
+<rect x="850" y="135" width="195" height="100" rx="16" fill="#0e1c2f" stroke="#2c4866"/><text x="870" y="165" fill="#ff5f6d" font-weight="700">4. PREDICT</text><text x="870" y="190" fill="#9db0c9">0 → no anomaly</text><text x="870" y="212" fill="#9db0c9">1 → anomaly</text>
+<path d="M255 185H320M520 185H585M785 185H850" stroke="#42e8ff" stroke-width="4"/>
+<rect x="140" y="300" width="820" height="150" rx="20" fill="#0b1628" stroke="#27445f"/>
+<text x="165" y="332" fill="#eef6ff" font-weight="700">MODEL OPTIONS PRESENT IN IntelligentModel.ipynb</text>
+<g transform="translate(165 355)">
+<rect width="160" height="60" rx="12" fill="#10213a"/><text x="20" y="37" fill="#eef6ff">KNN</text>
+<rect x="175" width="160" height="60" rx="12" fill="#10213a"/><text x="195" y="37" fill="#eef6ff">Decision Tree</text>
+<rect x="350" width="160" height="60" rx="12" fill="#10213a"/><text x="370" y="37" fill="#eef6ff">RBF SVM</text>
+<rect x="525" width="245" height="60" rx="12" fill="#10213a"/><text x="545" y="27" fill="#eef6ff">GeneticSelectionCV</text><text x="545" y="46" fill="#9db0c9">used as the "SSO" path</text>
+</g></g>
+</svg>

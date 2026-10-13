@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<defs>
+  <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+    <stop offset="0" stop-color="#07101d"/><stop offset="1" stop-color="#0b1830"/>
+  </linearGradient>
+  <linearGradient id="car" x1="0" x2="1"><stop stop-color="#42e8ff"/><stop offset="1" stop-color="#5b8cff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+<g opacity="0.18" stroke="#55718f" stroke-width="1">
+  <path d="M30 70H1170M30 140H1170M30 210H1170M30 280H1170M30 350H1170"/>
+  <path d="M110 20V400M220 20V400M330 20V400M440 20V400M550 20V400M660 20V400M770 20V400M880 20V400M990 20V400M1100 20V400"/>
+</g>
+<text x="62" y="72" fill="#eef6ff" font-size="28" font-family="Arial, Helvetica, sans-serif" font-weight="700">AUTOMOTIVE ANOMALY DETECTION SYSTEM</text>
+<text x="62" y="106" fill="#9db0c9" font-size="16" font-family="Arial, Helvetica, sans-serif">CAN telemetry • classical ML • feature selection • anomaly classification</text>
+<g font-family="Arial, Helvetica, sans-serif" font-size="13">
+  <rect x="60" y="142" width="260" height="84" rx="14" fill="#0e1c2f" stroke="#27445f"/>
+  <text x="80" y="168" fill="#42e8ff" font-weight="700">RAW CAN DATA</text>
+  <text x="80" y="190" fill="#9db0c9">Time • ID • Signal 1..4</text>
+  <text x="80" y="212" fill="#9db0c9">1,048,575 rows in bundled dataset</text>
+  <path d="M320 184H410" stroke="#42e8ff" stroke-width="4" filter="url(#glow)"/>
+  <circle cx="365" cy="184" r="6" fill="#42e8ff" filter="url(#glow)"/>
+  <rect x="410" y="142" width="250" height="84" rx="14" fill="#0e1c2f" stroke="#27445f"/>
+  <text x="430" y="168" fill="#5b8cff" font-weight="700">PREPROCESSING</text>
+  <text x="430" y="190" fill="#9db0c9">fill missing values</text>
+  <text x="430" y="212" fill="#9db0c9">label-encode CAN IDs</text>
+  <path d="M660 184H750" stroke="#5b8cff" stroke-width="4" filter="url(#glow)"/>
+  <circle cx="705" cy="184" r="6" fill="#5b8cff" filter="url(#glow)"/>
+  <rect x="750" y="126" width="300" height="116" rx="14" fill="#0e1c2f" stroke="#27445f"/>
+  <text x="770" y="152" fill="#ffc857" font-weight="700">MODEL WORKBENCH</text>
+  <text x="770" y="177" fill="#eef6ff">KNN</text>
+  <text x="860" y="177" fill="#eef6ff">Decision Tree</text>
+  <text x="770" y="201" fill="#eef6ff">RBF SVM</text>
+  <text x="860" y="201" fill="#eef6ff">GeneticSelectionCV</text>
+  <text x="770" y="225" fill="#9db0c9">Experimental SSO / swarm path</text>
+  <path d="M1050 184H1135" stroke="#ff5f6d" stroke-width="4" filter="url(#glow)"/>
+  <circle cx="1092" cy="184" r="6" fill="#ff5f6d" filter="url(#glow)"/>
+  <rect x="1035" y="270" width="110" height="54" rx="13" fill="#2a1117" stroke="#5b2831"/>
+  <text x="1050" y="293" fill="#ff5f6d" font-weight="700">ANOMALY</text>
+  <text x="1052" y="312" fill="#9db0c9">flag / log</text>
+</g>
+<g transform="translate(185 290)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M0 50 C18 17 55 0 95 0 H275 C310 0 343 17 361 50 L382 72 H410 C424 72 435 83 435 97 V110 C435 122 425 132 413 132 H10 C-2 132 -12 122 -12 110 V97 C-12 83 -1 72 13 72 H34 Z" stroke="url(#car)" stroke-width="5"/>
+  <path d="M66 50 L92 18 H270 L298 50" stroke="#eef6ff" stroke-width="3" opacity="0.65"/>
+  <circle cx="75" cy="128" r="30" stroke="#42e8ff" stroke-width="5"/><circle cx="338" cy="128" r="30" stroke="#42e8ff" stroke-width="5"/>
+  <path d="M105 128 H308" stroke="#27445f" stroke-width="3" stroke-dasharray="7 10"/>
+  <circle cx="208" cy="93" r="19" stroke="#ffc857" stroke-width="4"/>
+  <path d="M208 78 V108 M193 93 H223" stroke="#ffc857" stroke-width="4"/>
+  <path d="M208 76 C250 45 285 45 326 70" stroke="#ff5f6d" stroke-width="4" opacity="0.85"/>
+  <circle cx="326" cy="70" r="7" fill="#ff5f6d" stroke="none" filter="url(#glow)"/>
+</g>
+<text x="670" y="374" fill="#9db0c9" font-size="14" font-family="Arial, Helvetica, sans-serif">Actual notebooks + bundled CAN-style dataset</text>
+</svg>

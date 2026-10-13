@@ -1,0 +1,28 @@
+services:
+  dashboard:
+    build: .
+    image: aads:4.2
+    command: ["python", "-m", "streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501", "--server.headless=true"]
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./artifacts:/app/artifacts
+    restart: unless-stopped
+
+  api:
+    image: aads:4.2
+    build: .
+    command: ["python", "-m", "uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./artifacts:/app/artifacts
+    restart: unless-stopped
+
+  trainer:
+    image: aads:4.2
+    build: .
+    profiles: ["training"]
+    command: ["python", "-m", "scripts.train", "--input", "compressed_data.csv.gz", "--max-rows", "50000"]
+    volumes:
+      - ./artifacts:/app/artifacts

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="450" viewBox="0 0 1000 450">
+<rect width="1000" height="450" rx="24" fill="#08111f"/>
+<text x="50" y="55" fill="#eef6ff" font-size="24" font-family="Arial" font-weight="700">Bundled dataset snapshot</text>
+<text x="50" y="82" fill="#9db0c9" font-size="14" font-family="Arial">compressed_data.csv.gz • measured from the repository artifact</text>
+<g font-family="Arial">
+<g transform="translate(50 120)"><rect width="210" height="92" rx="16" fill="#0e1c2f" stroke="#26435f"/><text x="20" y="35" fill="#42e8ff" font-size="14" font-weight="700">ROWS</text><text x="20" y="68" fill="#eef6ff" font-size="25" font-weight="700">1,048,575</text></g>
+<g transform="translate(280 120)"><rect width="210" height="92" rx="16" fill="#0e1c2f" stroke="#26435f"/><text x="20" y="35" fill="#5b8cff" font-size="14" font-weight="700">COLUMNS</text><text x="20" y="68" fill="#eef6ff" font-size="25" font-weight="700">7</text></g>
+<g transform="translate(510 120)"><rect width="210" height="92" rx="16" fill="#0e1c2f" stroke="#26435f"/><text x="20" y="35" fill="#ffc857" font-size="14" font-weight="700">CAN IDs</text><text x="20" y="68" fill="#eef6ff" font-size="25" font-weight="700">10 unique</text></g>
+<g transform="translate(740 120)"><rect width="210" height="92" rx="16" fill="#0e1c2f" stroke="#26435f"/><text x="20" y="35" fill="#ff5f6d" font-size="14" font-weight="700">ANOMALIES</text><text x="20" y="68" fill="#eef6ff" font-size="25" font-weight="700">30.38%</text></g>
+<text x="55" y="265" fill="#eef6ff" font-size="15" font-weight="700">Label distribution</text>
+<rect x="55" y="285" width="620" height="32" rx="8" fill="#11233b"/><rect x="55" y="285" width="432" height="32" rx="8" fill="#42e8ff"/><rect x="487" y="285" width="188" height="32" rx="0" fill="#ff5f6d"/>
+<text x="70" y="307" fill="#07101d" font-size="13" font-weight="700">Normal / 0 • 730,048 • 69.62%</text><text x="503" y="307" fill="#07101d" font-size="13" font-weight="700">Anomaly / 1 • 318,527</text>
+<text x="55" y="350" fill="#eef6ff" font-size="15" font-weight="700">Observed missingness</text>
+<text x="55" y="375" fill="#9db0c9" font-size="13">Signal2_of_ID: 260,746 missing</text><text x="325" y="375" fill="#9db0c9" font-size="13">Signal3_of_ID: 939,862 missing</text><text x="595" y="375" fill="#9db0c9" font-size="13">Signal4_of_ID: 1,005,943 missing</text>
+</g></svg>

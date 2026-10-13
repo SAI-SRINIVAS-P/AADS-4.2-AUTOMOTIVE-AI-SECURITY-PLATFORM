@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430">
+  <rect width="1200" height="430" rx="24" fill="#eef1f4"/>
+  <rect x="0" y="0" width="1200" height="56" rx="24" fill="#1f2329"/>
+  <circle cx="28" cy="28" r="6" fill="#ff5f6d"/><circle cx="50" cy="28" r="6" fill="#ffc857"/><circle cx="72" cy="28" r="6" fill="#41e7a1"/>
+  <rect x="112" y="15" width="360" height="28" rx="8" fill="#2d333b"/><text x="128" y="34" font-family="Arial" font-size="12" fill="#d8dee4">IntelligentModel.ipynb  ·  CAN.csv</text>
+  <rect x="0" y="56" width="1200" height="54" fill="#ffffff"/><text x="24" y="90" font-family="Arial" font-size="15" fill="#243447" font-weight="700">Jupyter / automotive telemetry workspace</text>
+  <rect x="22" y="126" width="1160" height="250" rx="8" fill="#ffffff" stroke="#c7d1dc"/><rect x="40" y="146" width="1120" height="38" fill="#edf2f7"/>
+  <g font-family="Arial" font-size="12" fill="#3e4c59" font-weight="700"><text x="70" y="170">Label</text><text x="176" y="170">Time</text><text x="318" y="170">ID</text><text x="420" y="170">Signal1_of_ID</text><text x="610" y="170">Signal2_of_ID</text><text x="790" y="170">Signal3_of_ID</text><text x="970" y="170">Signal4_of_ID</text></g>
+  <g font-family="Arial" font-size="11" fill="#52606d">
+    <text x="70" y="207">0</text><text x="176" y="207">81398255.12</text><text x="318" y="207">id7</text><text x="420" y="207">0.05426</text><text x="610" y="207">1.00000</text>
+    <text x="70" y="238">0</text><text x="176" y="238">81398257.42</text><text x="318" y="238">id4</text><text x="420" y="238">0.00000</text>
+    <text x="70" y="269">0</text><text x="176" y="269">81398260.98</text><text x="318" y="269">id5</text><text x="420" y="269">0.19213</text><text x="610" y="269">0.72672</text>
+    <text x="70" y="300">1</text><text x="176" y="300">81398265.34</text><text x="318" y="300">id3</text><text x="420" y="300">0.40000</text><text x="610" y="300">0.99939</text>
+    <text x="70" y="331">1</text><text x="176" y="331">81398266.11</text><text x="318" y="331">id5</text><text x="420" y="331">0.17449</text><text x="610" y="331">0.60662</text>
+  </g>
+  <rect x="860" y="392" width="300" height="24" rx="8" fill="#0e1c2f"/><text x="878" y="409" font-family="Arial" font-size="11" fill="#eef6ff">Demo video bundled as MINI_VIDEO.mp4</text>
+</svg>

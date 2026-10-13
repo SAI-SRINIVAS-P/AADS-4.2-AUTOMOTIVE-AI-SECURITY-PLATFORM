@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+artifacts/*.joblib
+artifacts/*.sqlite3
+artifacts/model_registry.json
+artifacts/active_model.json
+artifacts/experiments/
+.streamlit/secrets.toml
